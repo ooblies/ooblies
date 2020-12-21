@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ooblies/static/css/main.9a3b0495.chunk.css",
+    "main.js": "/ooblies/static/js/main.2eab7279.chunk.js",
+    "main.js.map": "/ooblies/static/js/main.2eab7279.chunk.js.map",
+    "runtime-main.js": "/ooblies/static/js/runtime-main.591f0db2.js",
+    "runtime-main.js.map": "/ooblies/static/js/runtime-main.591f0db2.js.map",
+    "static/js/2.aa5dc80e.chunk.js": "/ooblies/static/js/2.aa5dc80e.chunk.js",
+    "static/js/2.aa5dc80e.chunk.js.map": "/ooblies/static/js/2.aa5dc80e.chunk.js.map",
+    "static/js/3.22b7d990.chunk.js": "/ooblies/static/js/3.22b7d990.chunk.js",
+    "static/js/3.22b7d990.chunk.js.map": "/ooblies/static/js/3.22b7d990.chunk.js.map",
+    "index.html": "/ooblies/index.html",
+    "static/css/main.9a3b0495.chunk.css.map": "/ooblies/static/css/main.9a3b0495.chunk.css.map",
+    "static/js/2.aa5dc80e.chunk.js.LICENSE.txt": "/ooblies/static/js/2.aa5dc80e.chunk.js.LICENSE.txt",
+    "static/media/bombdgeball.eab87e63.png": "/ooblies/static/media/bombdgeball.eab87e63.png",
+    "static/media/competativetyping.8e65288b.png": "/ooblies/static/media/competativetyping.8e65288b.png",
+    "static/media/idlemmo.fd2f1498.png": "/ooblies/static/media/idlemmo.fd2f1498.png",
+    "static/media/idleprospector.4f84c0dd.png": "/ooblies/static/media/idleprospector.4f84c0dd.png",
+    "static/media/ooblies.c0c3d390.png": "/ooblies/static/media/ooblies.c0c3d390.png",
+    "static/media/typerrpg.49b7c85e.png": "/ooblies/static/media/typerrpg.49b7c85e.png",
+    "static/media/typingincremental.0edf7773.png": "/ooblies/static/media/typingincremental.0edf7773.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.591f0db2.js",
+    "static/js/2.aa5dc80e.chunk.js",
+    "static/css/main.9a3b0495.chunk.css",
+    "static/js/main.2eab7279.chunk.js"
+  ]
+}
