@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import ProjectCard from "./ProjectCard";
+import projects from "./projects";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-gray-400 w-full h-full select-none">
+      <div className="font-bold text-5xl text-center p-16">
+        Ooblies.com!
+      </div>
+      <div className="font-bold text-2xl text-center p-4">
+        Projects
+      </div>
+      <div className="grid grid-cols-3 gap-4 max-w-screen-xl mx-auto ">
+        { 
+          projects.map((p) => <ProjectCard key={p.title} project={p}/>)
+        }
+      </div>
     </div>
   );
 }
