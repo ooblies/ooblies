@@ -15,6 +15,8 @@ const projects = [
         dateFinished:"Dec 2020",
         status:"Completed",
         stack: "HTML, React, TailwindCSS",
+        sourceCode: "https://github.com/ooblies/ooblies",
+        playableLink: "https://ooblies.com"
     },{ 
         title: "Bombdgeball",
         dateStarted: "March 2020",
@@ -22,6 +24,7 @@ const projects = [
         description: "Dodgeball with bombs!",
         status: "Cancelled",
         stack:"Unity, C#",
+        sourceCode: "https://github.com/ooblies/Dodgeball-Ish",
     },{ 
         title: "TypeRPG",
         dateStarted: "January 2020",
