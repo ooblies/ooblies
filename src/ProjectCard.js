@@ -12,7 +12,7 @@ import idleprospector from './project-thumbnails/idleprospector.png'
 const { useState } = React;
 
 function ProjectCard(props) {
-    var activeStyle = "min-h-100 col-span-2 row-span-2";
+    var activeStyle = "h-100 col-span-2 row-span-2";
     var inActiveStyle = " h-48 ";
 
     const [active, setActive] = useState(false);
@@ -74,7 +74,7 @@ function ProjectCard(props) {
                     <div className={"bg-gray-300 hover:bg-gray-400" + (props.project.sourceCode ? "" : " hidden")}>
                         <a className="inline-block h-full w-full p-4" rel="noreferrer" target="_blank" href={props.project.sourceCode}>Source</a>
                     </div>
-                    <div className={"bg-gray-300 hover:bg-gray-400" + (props.project.playableLink ? "" : " hidden")}>
+                    <div className={"bg-gray-300 hover:bg-green-600" + (props.project.playableLink ? "" : " hidden")}>
                         <a className="inline-block h-full w-full p-4" rel="noreferrer" target="_blank" href={props.project.playableLink}>Play</a>
                     </div>
                 </div>
